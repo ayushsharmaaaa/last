@@ -1,4 +1,4 @@
 const btn=document.querySelector('.button');
 btn .addEventListener('click',()=>{
-    console.log("Good work");
-})
+    alert("Good work");
+});
