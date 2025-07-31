@@ -1,3 +1,11 @@
 console.log("hello world");
 const a=document.querySelector('.new');
-a.innerHTML="hello";
+
+
+setInterval(() => {
+    a.innerHTML="Happy birthday to you!";
+}, 2000);
+
+setInterval(()=>{
+    a.innerHTML=""
+},4000)
